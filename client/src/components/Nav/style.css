@@ -1,0 +1,20 @@
+nav {
+    background-color: lightgreen
+}
+
+a {
+    text-decoration: none;
+    color: lightblue
+}
+ a:hover {
+    text-decoration: underline;
+    color: lightgoldenrodyellow
+}
+
+.navbar-brand {
+    font-size: 50px;
+}
+
+.nav-item {
+    font-size: 40px;
+}
