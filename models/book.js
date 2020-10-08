@@ -1,13 +1,14 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
+// Schema code to handle the books
+
 const bookSchema = new Schema({
   title: { type: String, required: true },
   author: { type: String, required: true },
   description: String,
   image: String,
   link: String, 
-  synopsis: String,
   date: { type: Date, default: Date.now }
 });
 
